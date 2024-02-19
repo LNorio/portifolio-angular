@@ -1,0 +1,20 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+section div:first-child{
+    width: 30%;
+}
+
+.aux-site{
+    color: #B4BEC9;
+    font-size: 12px;
+}
+
+img{
+    width: 70%;
+    border-radius: 30%;
+}

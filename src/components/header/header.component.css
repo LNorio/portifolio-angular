@@ -1,0 +1,26 @@
+div{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #DEEFE7;
+    padding: 20px 5px;
+    width: 100%;
+}
+
+div a{
+    text-decoration: none;
+    text-transform: none; 
+    color: var(--primary);
+}
+
+div a:visited{
+    color: var(--primary);
+}
+
+div a:hover{
+    color:var(--secondary);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
