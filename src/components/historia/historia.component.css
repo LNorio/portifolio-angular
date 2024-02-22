@@ -1,0 +1,7 @@
+.history{
+    padding: 5% 10%;
+}
+
+.history p a{
+    cursor: pointer;
+}
