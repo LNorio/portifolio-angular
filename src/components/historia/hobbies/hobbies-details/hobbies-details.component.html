@@ -1,3 +1,9 @@
 <div class="details">
-    teste
+    <div *ngIf="this.hobbie == undefined">
+    </div>
+    <div *ngIf="this.hobbie!= undefined">
+        <h1>{{this.hobbie.name}}</h1>
+        <h2>Tempo: {{this.hobbie.time}}</h2>
+        <p>teste</p>
+    </div>
 </div>

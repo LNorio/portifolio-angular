@@ -1,4 +1,4 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, ViewChild } from '@angular/core';
 import { HobbiesDetailsComponent } from './hobbies-details/hobbies-details.component';
 
 @Component({
@@ -10,6 +10,13 @@ import { HobbiesDetailsComponent } from './hobbies-details/hobbies-details.compo
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 
+
+
 export class HobbiesComponent {
+
+
+  ngOnInit(){
+    
+  }
   
 }
