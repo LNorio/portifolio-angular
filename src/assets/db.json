@@ -2,32 +2,32 @@
     "hobbies": 
     [
         {
-            "id": 1,
+            "id": 0,
             "name": "Tênis",
             "time": "Muito tempo"
         },
         {
-            "id": 2,
+            "id": 1,
             "name": "Academia",
             "time": "1 ano"
         },
         {
-            "id": 3,
+            "id": 2,
             "name": "Culinária",
             "time": "3 anos"
         },
         {
-            "id": 4,
+            "id": 3,
             "name": "Estudo",
             "time": "3 anos"
         },
         {
-            "id": 5,
+            "id": 4,
             "name": "Jogos online",
             "time": "Muito tempo"
         },
         {
-            "id": 6,
+            "id": 5,
             "name": "Jogos tabuleiro",
             "time": "8 anos"
         }

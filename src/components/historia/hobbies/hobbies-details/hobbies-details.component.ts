@@ -19,10 +19,10 @@ export class HobbiesDetailsComponent {
 
   constructor( private service: HobbiesService){ }
 
-  ngOnInit(){
+  ngOnChanges(){
     this.service.getDetails(this.id).subscribe( resp =>{
       this.hobbie = resp;
-      console.log(this.hobbie.name);
     });
   }
+
 }

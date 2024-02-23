@@ -2,25 +2,6 @@
     <h1>
         Hobbies
     </h1>
-    <swiper-container class="swiper" speed="1000" loop="true" autoplay="true" pagination="true" navigation="true">
-        <swiper-slide>
-            <img src="../../../assets/images/tenis.jpg"/>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="../../../assets/images/academia.jpg"/>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="../../../assets/images/culinaria.jpg"/>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="../../../assets/images/estudos.jpg"/>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="../../../assets/images/online.jpg"/>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="../../../assets/images/tabuleiro.jpg"/>
-        </swiper-slide>
-    </swiper-container>
-    <app-hobbies-details class="details" [id]="3"></app-hobbies-details>
+    <app-carousel class="carousel" (id)="getId($event)"></app-carousel>
+    <app-hobbies-details class="details" [id]="id"></app-hobbies-details>
 </section>

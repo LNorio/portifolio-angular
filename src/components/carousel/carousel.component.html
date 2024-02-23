@@ -1,0 +1,12 @@
+<div>
+    <img src="{{images[activeImage]}}"/>
+    <div class="button-prev" (click)="prevImage()">
+        
+    </div>
+    <div class="button-next" (click)="nextImage()">
+    
+    </div>
+    <div class="strokes">
+        <div *ngFor="let item of images; index as i" class="stroke" [ngClass]="{'active-stroke': i == this.activeImage}"></div>
+    </div>
+</div>
